@@ -1,0 +1,89 @@
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+ul,
+ol,
+li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+html,
+body {
+	height: 100%;
+	line-height: 1;
+	background: #fafafa; 
+	font-size: 14px;
+	color: #252b42;
+	font-weight: 500;
+	font-family: Montserrat;
+}
+body{
+	background: url('https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg') 0 0/cover no-repeat;
+}
+.wrapper {
+	font-size: 14px;
+	background-color: burlywood;
+	margin: 0px auto;
+   max-width: 843px;
+   padding: 20px 0 20px 0;
+	
+}
+.titel{
+	text-align: center;
+
+}
+h1{
+	font-weight: 900;
+	font-size: 30px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	padding: 20px 30px;
+}
+h2{
+
+}
+.menu{
+	margin: 20px 0 0 0px;
+
+
+}
+.menu__coffee{}
+.menu__coffee__title{
+	font-size: 30px;
+	font-weight: 600;
+	font-weight: 900;
+
+}
+.icon{
+	text-align: center;
+	padding-top: 6px;
+}
+
+ul {
+	padding: 0 0 0 20px;
+
+}
+ul li{
+	padding-bottom: 5px;
+	font-size: 20px;
+	font-weight: 400px;
+}
