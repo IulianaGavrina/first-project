@@ -36,19 +36,26 @@ body {
 	font-weight: 500;
 	font-family: Montserrat;
 }
+@font-face {
+    font-family: 'IBM Plex Serif';
+    src: url(https://pictures.s3.yandex.net/fonts/Ibmplexserif.woff);
+}
 body{
 	background: url('https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg') 0 0/cover no-repeat;
 }
 .wrapper {
-	font-size: 14px;
+    
+	font-size: 34px;
 	background-color: burlywood;
 	margin: 0px auto;
-   max-width: 843px;
-   padding: 20px 0 20px 0;
+    max-width: 843px;
+    padding: 20px 0 20px 0;
 	
 }
 .titel{
 	text-align: center;
+    font-family: 'IBM Plex Serif';
+    
 
 }
 h1{
